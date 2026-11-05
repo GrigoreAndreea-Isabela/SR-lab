@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:d00492ba-6cd7-4b34-a1cf-d3358f94c7e9#"
+     xml:base="urn:webprotege:ontology:d00492ba-6cd7-4b34-a1cf-d3358f94c7e9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:d00492ba-6cd7-4b34-a1cf-d3358f94c7e9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChkByUHScODHVHkINE03kY -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RChkByUHScODHVHkINE03kY">
+        <rdfs:label xml:lang="en">hasMinSalary</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8quMkfwQ6ULk4kspZJ7eVG -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8quMkfwQ6ULk4kspZJ7eVG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">belongsTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9nwo6j75aDPHJG1oWHX5r5 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9nwo6j75aDPHJG1oWHX5r5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">worksIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBeJzartGf55OfwbBnFjMqB -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBeJzartGf55OfwbBnFjMqB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasRole</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R90Mft6uUREPGxf9L9rmjJs -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R90Mft6uUREPGxf9L9rmjJs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">hasMinSalary</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCeZtiZmeAvm0sqTznad41U -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCeZtiZmeAvm0sqTznad41U">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">numberOfMembers</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHAQsJOuIbGFuWGhqgWS30 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RHAQsJOuIbGFuWGhqgWS30">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">hasUserHash</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79eRiKO0K5ziOQQSoo83sk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R79eRiKO0K5ziOQQSoo83sk">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RHAQsJOuIbGFuWGhqgWS30"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">User</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XsSS2oA0Ty82GPpzHAMdM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7XsSS2oA0Ty82GPpzHAMdM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpTROm35PZxfbjedo47g56"/>
+        <rdfs:label xml:lang="en">PartTimeEmployee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Yi6idBQVpAknUcjfeu9WH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Yi6idBQVpAknUcjfeu9WH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpTROm35PZxfbjedo47g56"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9nwo6j75aDPHJG1oWHX5r5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBeJzartGf55OfwbBnFjMqB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDbIV9PzdTBas0PuGWkaQVt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FullTimeEmployee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ma9zDT0t8uYF2Gko3Td6g -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ma9zDT0t8uYF2Gko3Td6g">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCeZtiZmeAvm0sqTznad41U"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>HRDepartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84IkJRUigmm2MPQTn53emX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R84IkJRUigmm2MPQTn53emX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDbIV9PzdTBas0PuGWkaQVt"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8quMkfwQ6ULk4kspZJ7eVG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R90Mft6uUREPGxf9L9rmjJs"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ProjectManagerJob</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XCPA5no39wzqfUUNbqmov -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8XCPA5no39wzqfUUNbqmov">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCeZtiZmeAvm0sqTznad41U"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MarketingDepartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ap7n0XQmRVu8sN5G1smps -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ap7n0XQmRVu8sN5G1smps">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDbIV9PzdTBas0PuGWkaQVt"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8quMkfwQ6ULk4kspZJ7eVG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R90Mft6uUREPGxf9L9rmjJs"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SoftwareEngineerJob</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpTROm35PZxfbjedo47g56 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCpTROm35PZxfbjedo47g56">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9nwo6j75aDPHJG1oWHX5r5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBeJzartGf55OfwbBnFjMqB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDbIV9PzdTBas0PuGWkaQVt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Employee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbIV9PzdTBas0PuGWkaQVt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDbIV9PzdTBas0PuGWkaQVt">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8quMkfwQ6ULk4kspZJ7eVG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R90Mft6uUREPGxf9L9rmjJs"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Job</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJxC0Jxp69Yd3ldcoNMPo2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJxC0Jxp69Yd3ldcoNMPo2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCeZtiZmeAvm0sqTznad41U"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ITDepartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvQZezjC42mswYkw41JikN">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCeZtiZmeAvm0sqTznad41U"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Department</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7eRHXdilkdXp8PS4gJVVNt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7eRHXdilkdXp8PS4gJVVNt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ap7n0XQmRVu8sN5G1smps"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8quMkfwQ6ULk4kspZJ7eVG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RJxC0Jxp69Yd3ldcoNMPo2"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R90Mft6uUREPGxf9L9rmjJs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</webprotege:R90Mft6uUREPGxf9L9rmjJs>
+        <rdfs:label xml:lang="en">Junior Software Engineer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ygJfI0WShNS49CD2SkLSO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ygJfI0WShNS49CD2SkLSO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ma9zDT0t8uYF2Gko3Td6g"/>
+        <webprotege:RCeZtiZmeAvm0sqTznad41U rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:RCeZtiZmeAvm0sqTznad41U>
+        <rdfs:label xml:lang="en">HRDepartmentCentral</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99mljCQdkTHx6Ly5BC2psn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R99mljCQdkTHx6Ly5BC2psn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7Yi6idBQVpAknUcjfeu9WH"/>
+        <webprotege:R9nwo6j75aDPHJG1oWHX5r5 rdf:resource="http://webprotege.stanford.edu/R7ygJfI0WShNS49CD2SkLSO"/>
+        <webprotege:RBeJzartGf55OfwbBnFjMqB rdf:resource="http://webprotege.stanford.edu/R7eRHXdilkdXp8PS4gJVVNt"/>
+        <rdfs:label xml:lang="en">Employee 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9h7SHUWAPsPNsSHAToEQZ5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9h7SHUWAPsPNsSHAToEQZ5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R79eRiKO0K5ziOQQSoo83sk"/>
+        <webprotege:RHAQsJOuIbGFuWGhqgWS30 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c5a6920fde10f636912532148108f0e67713f3ec6c852864b16cf80056ed942c</webprotege:RHAQsJOuIbGFuWGhqgWS30>
+        <rdfs:label xml:lang="en">euStudent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChnBySW8GamuCBTHgMp4wG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RChnBySW8GamuCBTHgMp4wG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ap7n0XQmRVu8sN5G1smps"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8quMkfwQ6ULk4kspZJ7eVG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RJxC0Jxp69Yd3ldcoNMPo2"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R90Mft6uUREPGxf9L9rmjJs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</webprotege:R90Mft6uUREPGxf9L9rmjJs>
+        <rdfs:label xml:lang="en">Senior Software Engineer</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
